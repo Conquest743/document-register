@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e8e9e5">
+  <title>Реестр документов</title>
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#workspace">К содержимому</a>
+  <header class="header">
+    <a class="brand" href="#register" aria-label="Реестр документов, открыть реестр"><svg viewBox="0 0 28 32" aria-hidden="true"><path d="M5 2h12l6 6v22H5zM17 2v7h6M9 15h10M9 20h10M9 25h6"/></svg><span>Реестр документов</span></a>
+    <nav aria-label="Основная навигация"><a href="#register">Реестр</a><a href="#history">Журнал</a><a href="#help">Как пользоваться</a></nav>
+    <a class="button export" href="/api/export">Скачать CSV</a>
+  </header>
+  <main id="workspace" tabindex="-1" aria-busy="true"><p class="initial">Загружаем реестр…</p></main>
+  <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

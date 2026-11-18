@@ -1,0 +1,8 @@
+{
+  "name": "document-register",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Локальный реестр счетов и чеков из TXT и JSON",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server.js --open" }
+}
